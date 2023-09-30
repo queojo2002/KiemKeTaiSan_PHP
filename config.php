@@ -4,6 +4,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 require_once 'vendor/autoload.php';
 
 $time = date('Y-m-d H:i:s');
+echo "1";
 $conn       = mysqli_connect('test123111-server.mysql.database.azure.com:3306', 'fwblucrchl', 'E1O6Z5R36IO01C45$', 'test123111-database') or die ('Connect DB Failed');
 mysqli_query($conn,"SET NAMES utf8");
 
